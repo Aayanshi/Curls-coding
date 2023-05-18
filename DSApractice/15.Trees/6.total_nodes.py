@@ -1,5 +1,4 @@
 
-
 class Node:
     def __init__ (self, x):
         self.data = x
@@ -34,7 +33,7 @@ p = inorder(root)
 print(p)
 
 #global variable approach is not appropriate approch we will do alternative approch
-
+# jazib way
 
 def calculate_nodes(root):
     if root == None:
